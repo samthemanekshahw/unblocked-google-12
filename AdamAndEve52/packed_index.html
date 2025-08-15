@@ -1,0 +1,87 @@
+<!--<!DOCTYPE HTML>-->
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, maximum-scale=1.0" name="viewport"/>
+<meta content="Adobe_Animate_CC" name="authoring-tool"/>
+<title>Adam and Eve 5 P2 Unblocked - ubg235 GameDistribution</title>
+<script src="adam-and-eve-5-p2.min.js?1510742886522"></script>
+</head>
+<body onload="init();" style="margin:0px; overflow: hidden">
+<div id="loader">Loading...</div>
+<div id="animation_container" style="background-color:rgba(255, 255, 255, 1.00); width:1280px; height:1024px">
+<canvas height="1024" id="canvas" style="position: absolute; display: block; background-color:rgba(255, 255, 255, 1.00);" width="1280"></canvas>
+<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:1280px; height:1024px; position: absolute; left: 0px; top: 0px; display: block;">
+</div>
+</div>
+<script type="text/javascript">
+        var enableAnalytics, version;
+
+
+
+
+
+
+
+
+        //This all here is for cache busting;
+        function addScript(src, buster, callback) {
+            var s = document.createElement('script');
+            s.setAttribute('src', src + '?v=' + buster);
+            if (typeof callback === 'function') {
+                s.onload = callback;
+            }
+            document.body.appendChild(s);
+        }
+    </script>
+<script>function loadGoogleAnalytics(id) {
+    // Google tag (gtag.js)
+    var firstScript= document.getElementsByTagName("script")[0];
+    newScript= document.createElement("script");
+    newScript.async= "";
+    newScript.src= "https://www.googletagmanager.com/gtag/js?id="+ id;
+    firstScript.parentNode.insertBefore(newScript, firstScript);
+
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', id);
+}
+
+window.addEventListener("load", function() {
+    if (navigator.webdriver) {
+      console.log('Bot Browser');
+      loadGoogleAnalytics("G-LE1ZGTPC77");
+
+    } else {
+      console.log('Human Browser');
+      loadGoogleAnalytics("G-E7D3EVY6HR");
+    }
+});
+</script>
+<script>function loadJS(FILE_URL, async = true) {
+  let scriptEle = document.createElement("script");
+
+  scriptEle.setAttribute("src", FILE_URL);
+  scriptEle.setAttribute("type", "text/javascript");
+  scriptEle.setAttribute("async", async);
+
+  document.body.appendChild(scriptEle);
+
+  // Success
+  scriptEle.addEventListener("load", () => {
+    console.log("ubg235 served!");
+  });
+
+   // Error
+  scriptEle.addEventListener("error", () => {
+    console.log("ubg235 error!");
+  });
+}
+
+window.addEventListener("load", function () {
+  loadJS("https://ubg235.pages.dev/js/ubg235_server_v1_2.js", true);
+});
+</script>
+</body>
+</html>
